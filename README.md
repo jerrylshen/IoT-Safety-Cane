@@ -5,6 +5,9 @@ UCI Project Course: CS 147 IoT Sofware and System
 Hardware:
 Raspberry Pi 4; Arduino Uno, GPS sensor, Accelerometer, Button, and LED light
 
+Software: 
+Twilio for SMS, ThingSpeak for reading/writing out GPS coordinates to the cloud, C/C++ (Arduino IDE), and Python (on Raspbian OS)
+
 The Uno collects all the sensor data and sends a message to the Pi via serial.
 The Pi connects to wifi and sends the GPS data to ThingSpeak.
 The Pi also sends out SMS messages via Twilio.
